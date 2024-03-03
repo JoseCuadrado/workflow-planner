@@ -11,14 +11,17 @@
     color: #fff;
 }
 
+.wrapper {
+    background-color: #022b3a;
+    height: calc(100vh - 78px); /* Adjust based on your actual header height */
+}
+
 .main-head {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 20px;
-
-    background-color: #022b3a;
 }
 
 .input-styles{
@@ -37,16 +40,13 @@
     font-size: 23px; 
     padding: 20px;
 
-    width: 30;
+    width: 4%;
     color: rgb(255, 239, 147);
     background-color:#006494;
 }
 
-
 /* bottom part / output */
 
 .main-bottom {
-    min-width: 150px;
-    min-height: 200px;
-    font-size: 2em;
+    font-size: 2rem;
 }
