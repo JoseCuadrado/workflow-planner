@@ -1,3 +1,7 @@
+:root {
+    --bg-color: #121212;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@
 }
 
 .wrapper {
-    background-color: #022b3a;
+    background-color: var(--bg-color);
     height: calc(100vh - 78px); /* Adjust based on your actual header height */
 }
 
